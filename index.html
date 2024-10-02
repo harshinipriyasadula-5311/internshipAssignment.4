@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Static Webpage with Navbar, Cards, and Form</title>
+    <script src="https://kit.fontawesome.com/35888ab816.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="https://maheedevelopers.in/wp-content/uploads/2023/12/Mahidevelopers000000000001-1024x290.png" width="190px" height="60px"/>
+            
+        </div>
+        <ul class="head-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#video">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="heading">
+        <h1>Welcome to Our Website</h1>
+        <p>Your success is our priority</p>
+        <button class="btn">Learn More</button>
+
+    </section>
+
+    <section id="services" class="cards-section">
+        <h2>Our Services</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4BhpFKCJ0_LAl-WhYLzk-84c-uQCkvKNObg&s" alt="web development" height="160px">
+                <h3>Web Development</h3>
+                <p>We provide top-notch web development services using modern technologies.
+                    We specialize in creating custom, user-friendly websites that are not only visually appealing but also fully functional. Our web development services are designed to help businesses establish a strong online presence.
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwoyqNgInjwhh4kvpVv699esg6-HO2P6u9jg&s" alt="digital marketing" height="160px">
+                <h3>Digital Marketing</h3>
+                <p>Boost your business with our expert digital marketing strategies.
+
+                    We help businesses grow online through targeted SEO, social media strategies, email campaigns, and engaging content. With data-driven insights, we optimize your digital presence for maximum impact and ROI.
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.shopify.com/s/files/1/0840/8370/3830/articles/1603954182-seo-article-header.png?v=1714646999" alt="seo Optimization" height="160px">
+                <h3>SEO Optimization</h3>
+                <p>Optimize your website to rank higher in search engines and drive more traffic.
+                    Enhance your website’s visibility with our expert SEO services. We improve your site’s content, structure, and performance to help you rank higher on search engines and attract more traffic.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video-section">
+        <h2>Watch Our Video</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jwodDs0b7p8?si=iY-0J6BYGlwUD_6r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button id="btn-1" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 My Website | Contact us: maheedevelopersinfotech@example.com</p>
+        <ul class="social-links">
+            <li><a href="http://Facebook.com">Facebook <i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+            <li><a href="http://Twitter.com">Twitter <i class="fa-brands fa-square-twitter fa-xl"></i></a></li>
+            <li><a href="http://Instagram.com">Instagram <i class="fa-brands fa-square-instagram fa-xl"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
